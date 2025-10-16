@@ -1,0 +1,17 @@
+package br.com.serratec.entity;
+
+public class Cardiologista extends Medico{
+
+	private Boolean eletro;
+
+	public Boolean getEletro() {
+		return eletro;
+	}
+
+	public void setEletro(Boolean eletro) {
+		this.eletro = eletro;
+	}
+	
+	
+	
+}

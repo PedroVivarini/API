@@ -1,0 +1,7 @@
+spring.application.name=aula2
+spring.datasource.url=jdbc:postgresql://localhost:5532/api2025
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.datasource.username=postgres
+spring.datasource.password=japatrash123*
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update

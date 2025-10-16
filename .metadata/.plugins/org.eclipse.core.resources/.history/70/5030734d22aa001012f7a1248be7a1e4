@@ -1,0 +1,17 @@
+package br.com.serratec.entity;
+
+
+
+public class Pediatra  extends Medico{
+	private boolean aplicaVacina;
+
+	public boolean isAplicaVacina() {
+		return aplicaVacina;
+	}
+
+	public void setAplicaVacina(boolean aplicaVacina) {
+		this.aplicaVacina = aplicaVacina;
+	}
+	
+	
+}

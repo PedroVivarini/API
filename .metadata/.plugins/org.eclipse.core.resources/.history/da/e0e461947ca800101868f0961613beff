@@ -1,0 +1,9 @@
+package br.com.serratec.entity;
+
+import br.com.serratec.enums.Categoria;
+import br.com.serratec.enums.Combustivel;
+
+public class Caracteristicas {
+
+	
+}

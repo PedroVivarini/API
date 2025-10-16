@@ -1,0 +1,5 @@
+server.port=9090
+spring.application.name=aula4
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jackson.deserialization.fail-on-unknown-properties=true

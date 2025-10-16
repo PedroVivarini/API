@@ -1,0 +1,16 @@
+package br.com.serratec.config;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration // vai gerenciar a classe 
+public class OpenApiConfig {
+	
+	@Value(${dominio.openapi.dev-uri})
+	private String devUri;
+	
+	@Value(${dominio.openapi.prod-uri})
+	private String devProd;
+	
+	
+}	

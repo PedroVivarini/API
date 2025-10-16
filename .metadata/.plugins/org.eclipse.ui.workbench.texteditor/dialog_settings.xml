@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="true"/>
+		<list key="findhistory">
+			<item value="funcionario"/>
+			<item value="Funcionario"/>
+			<item value="Tecnico"/>
+			<item value="manutecao"/>
+			<item value=" Manutencao"/>
+			<item value="Medico"/>
+			<item value="Exame"/>
+			<item value="consulta"/>
+			<item value="Consulta"/>
+			<item value="endereco"/>
+			<item value="Endereco"/>
+			<item value="Propietario"/>
+			<item value="propietario"/>
+			<item value="veiculo"/>
+			<item value="private"/>
+		</list>
+		<list key="replacehistory">
+			<item value="tecnico"/>
+			<item value="Tecnico"/>
+			<item value="gerente"/>
+			<item value="Gerente"/>
+			<item value="funcionario"/>
+			<item value="Funcionario"/>
+			<item value="medico"/>
+			<item value="Medico"/>
+			<item value="procedimento"/>
+			<item value="Procedimento"/>
+			<item value="consulta"/>
+			<item value="Consulta"/>
+			<item value="servico"/>
+			<item value="Servico"/>
+			<item value="manutecao"/>
+		</list>
+	</section>
+</section>

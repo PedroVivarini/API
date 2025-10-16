@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:h2:file:./banco/trabalho_grupo
+spring.datasource.username=sa
+spring.datasource.password=passaword
+spring.h2.console.path=/h2-console

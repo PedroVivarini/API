@@ -1,0 +1,11 @@
+package br.com.serratec.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Endereco {
+	private Long id;
+	private String bairro;
+	
+		
+}

@@ -1,0 +1,25 @@
+package br.com.serratec.enums;
+
+public enum Combustivel {
+	FLEX(1,"FLEX"), DIESEL(2,"DIESEL"), ELETRICO (3, "ELETRICO");
+	private Integer id;
+	private String tipo;
+	
+	
+	private Combustivel(Integer id, String tipo) {
+		this.id = id;
+		this.tipo = tipo;
+	}
+
+
+	public Integer getId() {
+		return id;
+	}
+
+
+	public String getTipo() {
+		return tipo;
+	}
+	
+	
+}

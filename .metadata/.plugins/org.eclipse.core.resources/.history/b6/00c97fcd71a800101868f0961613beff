@@ -1,0 +1,9 @@
+package br.com.serratec.exeption;
+
+public class ErroResposta {
+
+	
+	public class ErroRespota{
+		
+	}
+}

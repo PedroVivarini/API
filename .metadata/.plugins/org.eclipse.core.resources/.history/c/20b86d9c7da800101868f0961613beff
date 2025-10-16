@@ -1,0 +1,18 @@
+package br.com.serratec.entity;
+
+import br.com.serratec.enums.Categoria;
+import br.com.serratec.enums.Combustivel;
+import jakarta.persistence.Embeddable;
+
+@Embeddable
+public class Caracteristicas {
+
+	private String renavam;
+	private String chassi;
+	private Integer ano;
+	
+	private Categoria categoria;
+	private String cor;
+	private Combustivel combustivel;
+	
+}

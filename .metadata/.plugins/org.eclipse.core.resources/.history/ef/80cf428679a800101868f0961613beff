@@ -1,0 +1,14 @@
+package br.com.serratec.exeption;
+
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+public class ControllerExceptionHandler {
+
+	@ControllerAdvice
+	public class ControllerExeptionHnadler extends ResponseEntityExceptionHandler{
+		
+		
+	}
+}

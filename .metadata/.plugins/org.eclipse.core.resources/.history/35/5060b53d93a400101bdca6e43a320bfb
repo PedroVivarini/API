@@ -1,0 +1,36 @@
+package br.com.serratec.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.serratec.entity.Aluno;
+
+@RestController
+@RequestMapping ("/alunos")
+public class AlunoCOntroller {
+	List static List<Aluno> alunos = new ArrayList<>();
+	
+	
+static {		//bloco de inicialização statico
+	aLunos.add(new Aluno(1L, "Aline","aline@gmail.com"));
+	aLunos.add(new Aluno(2L, "Pedro","pedro@gmail.com"));
+}
+	
+	@GetMapping
+	public List<Aluno> istar (){
+		return alunos;
+	}
+	
+	@PostMapping
+	public Aluno inserir(@RequestBody Aluno aluno) {
+		alunos.add(aluno);
+		return aluno;
+	}
+	
+}
